@@ -98,11 +98,11 @@ Enter password for encryption: PassW0rd
  
 Original image (843 KB): 
 
-![original image](image.jpg)
+<img src="image.jpg" alt="Original Image" width="600"/>
 
-Image with 367KB archive embedded:
+Image with 367KB of text data embedded:
 
-![Image with Embedded Data](image-stego.png)
+<img src="image-stego.png" alt="Image with embedded data" width="600"/>
  
 ## Extract
 - Extract and decrypt the data:
@@ -122,7 +122,9 @@ Image with 367KB archive embedded:
 
 **Example**
 
-Now let’s analyse the original image with stago one:
+Now let’s analyse the stego image with original one:
+
+The first graph shows the analysis of LSBs of stego image. The second graph is of original image. We can see the average of LSBs of stego image is close to 0.5 in the region where the data is embedded.
 
 ![Stego image analysis](images/analysis.png)
 
